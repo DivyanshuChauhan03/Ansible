@@ -9,7 +9,7 @@ pipeline{
 		git branch:'master',url='https://github.com/DivyanshuChauhan03/Ansible'
 		}
 		}
-		stage('build'){[
+		stage('build'){
 		steps{
 		sh 'mvn clean install'
 		}
